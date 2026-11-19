@@ -71,3 +71,36 @@ body {
     color: #F9FAF8;
 }
 
+.info-section {
+    background-color: white;
+    padding: 3rem 15% 6rem;
+}
+
+.info-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.info-img {
+    border: 4px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-heading,
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.info-item {
+    width: 150px;
+    text-align: center;
+    color: hsl(0, 0%, 33%);
+}
+
