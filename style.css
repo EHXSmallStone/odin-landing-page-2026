@@ -104,3 +104,24 @@ body {
     color: hsl(0, 0%, 33%);
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 8rem 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    padding-right: 4rem;
+}
+
